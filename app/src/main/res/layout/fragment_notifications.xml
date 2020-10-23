@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackrecycler"
+
+    tools:context=".Notifications.NotificationsFragment">
+    <LinearLayout
+        android:id="@+id/toDoEmptyView3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/blackrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/applogo"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"/>
+
+
+        <TextView
+            android:text="No Friend Request"
+            android:textColor="#B0B2B5"
+            android:textSize="16sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <com.e.thedept20.RecyclerViewEmptySupport
+        android:id="@+id/noti_recyclerView"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+
+
+    </com.e.thedept20.RecyclerViewEmptySupport>
+
+</RelativeLayout>

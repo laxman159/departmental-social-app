@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.e.thedept20">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="ANDROID.PERMISSION.ACCESS_NETWORK_STATE"/>
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name="androidx.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:windowSoftInputMode="stateVisible"
+        tools:replace="android:icon">
+        <activity android:name=".LoginRegister.ProfilePicSetupActivity"></activity>
+        <activity android:name=".LoginRegister.Register3Activity" />
+        <activity android:name=".LoginRegister.Register2Activity" />
+        <activity android:name=".SearchProfileActivity" />
+
+        <activity android:name=".Notes.ui.activity.AddNoteActivity"/>
+
+        <activity android:name=".Notes.ui.activity.NotesListActivity"/>
+
+        <activity android:name=".Notes.ui.activity.PwdActivity"/>
+
+
+
+
+
+
+        <activity
+            android:name=".AccountsActivity"
+            android:parentActivityName=".SettingsActivity" />
+        <activity
+            android:name=".StudentsProtalActivity"
+            android:parentActivityName=".Home.DashboardActivity"/>
+        <activity android:name=".Utils.FriendRequestActivity" />
+        <activity android:name=".AppDefaultActivity" />
+        <activity android:name=".ReminderActivity" />
+        <activity android:name=".AddToDoActivity" />
+        <activity
+            android:name=".ViewAllDetaillPostActivity"
+            android:parentActivityName=".Home.DashboardActivity" />
+        <activity
+            android:name=".SettingProfileActivity"
+            android:parentActivityName=".SettingsActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".Home.DashboardActivity" />
+        <activity android:name=".Account.ViewAllPostActivity" />
+        <activity android:name=".LoginRegister.StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/SplashTheme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Chat.ChatUserActivity"
+            android:parentActivityName=".Home.DashboardActivity" />
+        <activity
+            android:name=".Chat.ChatActivity"
+            android:parentActivityName=".Chat.ChatUserActivity" />
+        <activity
+            android:name=".Search.FindFriendsActivity"
+            android:parentActivityName=".Home.DashboardActivity" />
+        <activity android:name=".AddPost.NextActivity" />
+        <activity
+            android:name=".LoginRegister.RegisterActivity"
+            android:parentActivityName=".LoginRegister.StartActivity" />
+        <activity android:name=".LoginRegister.LoginActivity" />
+        <activity android:name=".AddPost.ShareActivity" />
+
+        <service android:name=".Notifications.FirebaseService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_SERVICE"/>
+            </intent-filter>
+        </service>
+        <service android:name=".Notifications.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <service android:name=".TodoNotificationService"
+            android:enabled="true"
+
+
+            />
+        <service android:name=".DeleteNotificationService"
+            android:enabled="true"
+
+            />
+    </application>
+
+</manifest>

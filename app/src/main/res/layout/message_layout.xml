@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/message_profile_image"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:src="@drawable/profile" />
+
+    <include layout="@layout/chat_item_left"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/message_profile_image"
+        />
+
+    <include layout="@layout/chat_item_right"
+
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/message_reciver_message_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_toEndOf="@+id/message_profile_image"-->
+<!--        android:background="@drawable/receiver_message_textbackground"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="reciver message "-->
+<!--        android:textColor="@android:color/background_light"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/message_sender_message_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="@+id/message_reciver_message_text"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:background="@drawable/sender_messagetext_background"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="sender message "-->
+<!--        android:textColor="@android:color/background_light"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/message_reciver_message_image"
+        android:layout_width="190dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_border1"
+        android:padding="10dp"
+        android:visibility="invisible"
+        android:scaleType="centerCrop" />
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/message_sender_message_image"
+        android:layout_width="190dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="@drawable/white_border1"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginRegister.RegisterActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/toolbar"
+        android:background="@color/white"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginTop="@dimen/margin_20_dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_signup_vector"
+            android:layout_gravity="left"
+            />
+        <TextView
+            android:id="@+id/register_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/margin_10_dp"
+            android:text="Welcome,"
+            android:textColor="@color/black"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:id="@+id/msg_reg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="register yourself to continue..."
+            android:layout_gravity="left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/grey"
+            android:textSize="20sp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_email1"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="5dp"
+            android:background="@drawable/edittext_bg"
+            android:layout_marginTop="10dp"
+            android:hint="Email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_password1"
+            android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="5dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:hint="Password"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_forgotPassword1"
+            android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/grey"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+
+            android:hint="Confirm Password"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Started"
+            android:paddingLeft="@dimen/padding_20_dp"
+            android:paddingRight="@dimen/padding_20_dp"
+            android:id="@+id/register_creat_account1"
+            android:drawablePadding="40dp"
+            android:textAllCaps="false"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:drawableRight="@drawable/ic_arrow_img"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

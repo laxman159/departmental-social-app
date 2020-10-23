@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackrecycler"
+    android:padding="10dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/subjectNamemas"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
+        android:layout_marginEnd="10dp"
+        android:ems="10">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/subjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Subject name"
+            android:textColorHint="@color/grey"
+            android:backgroundTint="@color/white"
+            android:theme="@style/MenuStyle"
+            android:inputType="textPersonName"
+            android:textColor="@color/white" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <android.widget.Button
+        android:id="@+id/addSubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/subjectNamemas"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@id/subjectNamemas"
+        android:background="@drawable/button_design3"
+        android:backgroundTint="@color/grey"
+        android:text="Add Subject"
+        android:textColor="@color/white" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/subjectRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/subjectNamemas"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/attendence_tv"
+
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/attendence_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+
+        android:gravity="bottom"
+        android:padding="15dp"
+        android:text="Keep up with your attendece simply add a subject and every
+time you go to class click the tick button and if you bunked click the cross button.(NO INTERNET CONNECTION IS NEEDED)"
+        android:textColor="#7D7B7B"
+        android:textSize="10sp" />
+
+
+</RelativeLayout>

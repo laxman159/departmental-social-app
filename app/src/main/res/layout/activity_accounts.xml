@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".AccountsActivity"
+    android:background="@color/colorPrimary">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/abl_aa_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:title="Account Details"
+        app:popupTheme="@style/MenuStyle"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:titleTextColor="@color/white"/>
+    <ScrollView
+        android:id="@+id/aa_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/abl_aa_toolbar"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/c"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                android:background="@drawable/rounded_button"
+                android:layout_height="wrap_content"
+                >
+
+                <EditText
+                    android:id="@+id/setup_student_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:focusable="false"
+                    android:hint="Date of birth"
+
+                    android:textColorHint="@color/white"
+                    android:textColor="@color/colorPrimary"
+                    android:inputType="date" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/d"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/c"
+                android:background="@drawable/rounded_button"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary">
+
+                <EditText
+                    android:id="@+id/setup_student_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gender[Male|Female|Others]"
+                    android:textColor="@color/grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+
+                    android:inputType="textPersonName"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary"
+                android:background="@drawable/rounded_button"
+                android:layout_below="@id/d">
+
+                <EditText
+                    android:id="@+id/setup_student_collegename"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="College name"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textColor="@color/grey"
+                    android:inputType="textMultiLine" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/e"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary"
+                android:background="@drawable/rounded_button"
+                android:layout_below="@id/x">
+
+                <EditText
+                    android:id="@+id/setup_student_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Department"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/f"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary"
+                android:background="@drawable/rounded_button"
+                android:layout_below="@id/e">
+
+                <EditText
+                    android:id="@+id/setup_student_collegerollno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="College roll number "
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary"
+                android:layout_below="@id/f">
+
+                <EditText
+                    android:id="@+id/setup_student_unirollno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="University roll number "
+                    android:inputType="textPersonName" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary"
+                android:layout_below="@id/g">
+
+                <EditText
+                    android:id="@+id/setup_student_bloodgroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Blood group"
+                    android:inputType="textPersonName" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/m"
+                android:layout_width="match_parent"
+                android:background="@drawable/rounded_button"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="3dp"
+                app:hintTextColor="@color/colorPrimary"
+                android:layout_below="@id/k"
+                >
+
+                <EditText
+                    android:id="@+id/setup_student_semester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:hint="Semester"
+                    android:inputType="number" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/setup_imformation_butten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/m"
+                android:layout_centerHorizontal="true"
+
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_button"
+                android:text="SAVE"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

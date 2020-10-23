@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+                                   tools:ignore="MissingPrefix"
+                                   xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:id="@+id/toolbar"
+                                   android:minHeight="?attr/actionBarSize"
+                                   android:background="?attr/colorPrimary"
+                    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+                                   android:layout_width="match_parent"
+                                   android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/todo_back_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_clear_white_24dp"/>
+
+    <!--<TextView-->
+    <!--android:textSize="24sp"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:text="Toodle"-->
+    <!--fontPath="fonts/Aller_Regulat.ttf"-->
+    <!--android:padding="8dp"-->
+    <!--android:layout_height="wrap_content" />-->
+
+</androidx.appcompat.widget.Toolbar>
+

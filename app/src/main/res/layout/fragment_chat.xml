@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chat.ChatFragment"
+    android:layout_marginTop="100dp"
+    android:background="@color/blackrecycler">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/toDoEmptyView2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/blackrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/applogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+
+        <TextView
+            android:text="Loading..."
+            android:textColor="#B0B2B5"
+            android:textSize="16sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <com.e.thedept20.RecyclerViewEmptySupport
+        android:id="@+id/Chatfragment_Chatlist_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

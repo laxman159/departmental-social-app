@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home.HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/toDoEmptyView1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/applogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+
+        <TextView
+            android:text="loading..."
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:paddingTop="14dp"
+            android:paddingBottom="8dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="Check your Internet Connection\n if photos dose not load.\nThank you for using theDept"
+            android:textColor="@color/grey"
+            android:textSize="16sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_user_post_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/notes_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/margin_xxlarge"
+        android:layout_marginRight="@dimen/margin_xlarge"
+        android:backgroundTint="@color/blackrecycler"
+        android:elevation="4dp"
+        android:src="@drawable/ic_addpost_outline"
+        app:backgroundTint="@color/newBlue"
+        app:borderWidth="2dp"
+        app:fabSize="mini"
+        app:elevation="2dp"
+        app:layout_anchorGravity="bottom|center">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+
+</FrameLayout>

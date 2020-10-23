@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title=""
+        android:icon="@drawable/home13"
+        />
+
+    <item android:id="@+id/nav_findfriends"
+        android:title=""
+        android:icon="@drawable/nav_findfriends"
+        />
+
+
+
+
+    <item android:id="@+id/nav_addpost"
+        android:title=""
+        android:icon="@drawable/ic_addpost_outline"
+        />
+    <item android:id="@+id/nav_notifications"
+        android:title=""
+        android:icon="@drawable/ic_studentpportal_outline"
+        />
+
+    <item android:id="@+id/nav_userprofile"
+        android:title=""
+        android:icon="@drawable/ic_accountoutline"
+        />
+
+
+
+</menu>

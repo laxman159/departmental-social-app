@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LoginRegister.RegisterActivity">
+
+    <include
+        android:id="@+id/register3_toolbar"
+        layout="@layout/bar_layout"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/register3_toolbar"
+        android:padding="16dp"
+        android:layout_margin="@dimen/margin_20_dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/student"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:id="@+id/register_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="@dimen/margin_10_dp"
+            android:text="Step 2/2"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:id="@+id/msg_reg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Few academic details .."
+            android:layout_gravity="left"
+            android:textColor="#7C7F85"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register3_collegename"
+            android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/college"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="30dp"
+            android:hint="College name"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register3_rllnumber"
+            android:background="@drawable/edittext_bg"
+            android:drawableLeft="@drawable/rollno"
+            android:drawablePadding="5dp"
+            android:inputType="text"
+            android:layout_marginTop="20dp"
+            android:hint="Roll number"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/register3_semester"
+                android:background="@drawable/edittext_bg"
+                android:inputType="number"
+                android:drawableLeft="@drawable/semester"
+                android:drawablePadding="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="40dp"
+                android:hint="Semester"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/register3_department"
+            android:theme="@style/alert_dialog_light"
+            android:drawableLeft="@drawable/department"
+            android:drawablePadding="5dp"
+            android:inputType="text"
+            android:tag="Department"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register3_designation"
+            android:background="@drawable/edittext_bg"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/username"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="20dp"
+
+            android:hint="Designation"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:paddingLeft="@dimen/padding_20_dp"
+
+            android:paddingRight="@dimen/padding_20_dp"
+            android:id="@+id/register3_creat_account1"
+            android:drawablePadding="40dp"
+            android:textAllCaps="false"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:drawableRight="@drawable/ic_arrow_img"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

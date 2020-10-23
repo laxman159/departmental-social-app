@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">"theDept"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="string_open_camera">"Open Camera "</string>
+    <string name="Hint">Type a Status</string>
+    <string name="string_share">SHARE</string>
+
+    <!-- dialog names -->
+
+    <!-- Firebase messages -->
+    <string name="auth_failed">Failed to Authenticate</string>
+
+    <!-- Firebase database fields -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_account_settings">user_account_settings</string>
+    <string name="dbname_photos">photos</string>
+    <string name="dbname_user_photos">user_photos</string>
+
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_display_name">display_name</string>
+    <string name="field_website">website</string>
+    <string name="field_description">description</string>
+    <string name="field_phone_number">phone_number</string>
+
+
+    <!-- photo types -->
+    <string name="profile_photo">profile_photo</string>
+
+    <!-- Intent Extras -->
+    <string name="selected_image">selected_image</string>
+    <string name="selected_bitmap">selected_bitmap</string>
+
+
+    <string name="task_title">My Notes</string>
+    <string name="add_task_title">Add new note</string>
+    <string name="edit_task_title">Edit note</string>
+    <string name="btn_done">Done</string>
+    <string name="edit_title">Title</string>
+    <string name="edit_desc">Note</string>
+    <string name="edit_pwd">Password</string>
+    <string name="toolbar_pwd">Enter Password</string>
+    <string name="encrypt">Lock note</string>
+    <string name="item_note">View note</string>
+    <string name="empty_notes">Once you add some notes\nyou will find it here</string>
+
+    <string name="pwd_title">Enter password</string>
+    <string name="error_pwd">Incorrect password</string>
+
+
+    <string-array name="names">
+        <item>Computer Science</item>
+    </string-array>
+
+    <!-- Bundle arg names -->
+
+    <!-- activity names -->
+
+    <!-- strings -->
+
+
+    <!-- Dialog Names -->
+
+    <!-- Easy Video Player Stuff -->
+
+    <!-- Spring Header Stuff -->
+
+    <!-- JSON values -->
+
+    <!-- Error Messages -->
+
+    <!-- JSON keys -->
+
+    <!-- Material Camera Stuff -->
+    <string name="onlinestatus">online</string>
+    <string name="ChatsFragmentName">Chats</string>
+    <string name="FriendsFragmentName">Friends</string>
+    <string name="remind_date_and_time">Reminder set for %1$s, %2$s %3$s</string>
+    <string name="done_label">Done</string>
+    <string name="remove">Remove</string>
+    <string name="snooze">Snooze</string>
+    <string name="date_reminder_default">Today</string>
+    <string name="date_error_check_again">The date you entered is in the past.</string>
+
+    <string-array name="snooze_options">
+        <item>10 Minutes</item>
+        <item>30 Minutes</item>
+        <item>1 Hour</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".LoginRegister.ProfilePicSetupActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Profile"
+        app:titleTextColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_margin="@dimen/margin_20_dp"
+        android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:id="@+id/rel5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setup_profile"
+            android:transitionName="image"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon_male_ph"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/setup_fab_camera"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:elevation="10dp"
+            android:src="@drawable/ic_photo_camera_black_24dp"
+            android:layout_alignBottom="@id/setup_profile"
+            android:layout_alignEnd="@id/setup_profile"
+            android:backgroundTint="@color/green"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setup_status"
+        android:background="@drawable/edittext_bg"
+        android:inputType="textPersonName"
+        android:layout_marginTop="80dp"
+        android:layout_below="@id/rel5"
+        android:drawableLeft="@drawable/status"
+        android:drawablePadding="5dp"
+
+        android:hint="Status(how you feeling) "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:paddingLeft="@dimen/padding_20_dp"
+        android:paddingRight="@dimen/padding_20_dp"
+        android:id="@+id/register4_creat_account1"
+        android:drawablePadding="40dp"
+        android:layout_below="@id/setup_status"
+        android:textAllCaps="false"
+        android:layout_gravity="left"
+        android:textSize="18sp"
+        android:drawableRight="@drawable/ic_arrow_img"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="50dp"
+        android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

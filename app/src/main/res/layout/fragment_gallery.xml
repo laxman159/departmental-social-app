@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/gallbar"
+            layout="@layout/share_gallary_toolbar" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="60">
+
+            <ImageView
+                android:id="@+id/galleryImageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+        </RelativeLayout>
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="40"
+            android:gravity="center"
+            android:horizontalSpacing="1dp"
+            android:numColumns="4"
+            android:stretchMode="none"
+            android:verticalSpacing="1dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

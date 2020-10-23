@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blackrecycler">
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/like_button"
+            android:layout_width="40dp"
+            android:background="@drawable/heart_unfilled"
+            android:scaleType="fitCenter"
+
+
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:id="@+id/likes_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll2"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

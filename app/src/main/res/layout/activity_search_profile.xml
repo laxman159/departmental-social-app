@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:popupTheme="http://schemas.android.com/tools"
+    android:background="@color/blackrecycler">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abl">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/tttttt1"
+        android:layout_height="wrap_content"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/MenuStyle">
+
+        <ImageButton
+            android:id="@+id/custun_insta_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_back_arrow"
+            android:layout_marginRight="10dp"/>
+
+
+        <TextView
+            android:id="@+id/custom_instagramprofile_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dp"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abl">
+
+        <include layout="@layout/layout_center_profile">
+        </include>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:theme="@style/ThemeOverlay.AppCompat"
+    android:background="@color/blackrecycler">
+
+    <ImageView
+        android:id="@+id/back_button_imgview"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_back_arrow" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/custom_profile_image"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:cropToPadding="true"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/custom_profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="4dp"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/custom_lastseen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_profile_name"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="60dp"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="10sp" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

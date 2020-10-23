@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Chat.FriendsFragment">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10_dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/search_bg"
+        android:drawablePadding="5dp"
+        android:background="@drawable/edittext_bg"
+        android:textSize="16sp"
+        android:textCursorDrawable="@null"
+        android:textColorHint="@color/grey"
+        android:textColor="@color/grey"
+        android:hint="Search user by name..."
+        android:id="@+id/search_users_fragments_friends"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendsfragment_friendlist_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/search_users_fragments_friends"
+        android:layout_margin="15dp" />
+
+</RelativeLayout>

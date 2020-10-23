@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:id="@+id/ll6left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_reciver_message_text"
+        android:layout_centerVertical="true"
+        android:lineSpacingExtra="2dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="4dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="10dp"
+        android:text="Hi, How are you?"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+
+    <TextView
+        android:id="@+id/date_chat_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7:12am"
+        android:layout_marginTop="7dp"
+        android:layout_marginStart="3dp"
+        android:textColor="@color/white"
+        android:gravity="bottom"
+        android:textSize="7dp"/>
+
+
+</LinearLayout>
+
+</RelativeLayout>

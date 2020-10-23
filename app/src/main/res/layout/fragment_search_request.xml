@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SearchRequestFragment">
+
+    <FrameLayout
+        android:id="@+id/fl_searchuser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rellayoutparent2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relLayout22">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           >
+
+            <com.google.android.material.tabs.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tabss"
+                android:theme="@style/MenuStyle"
+                app:tabTextColor="@color/white"
+                android:background="@color/blackrecycler">
+
+
+            </com.google.android.material.tabs.TabLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relLayout2"
+        android:layout_below="@+id/relLayout22"
+        android:layout_marginBottom="45dp">
+
+        <include layout="@layout/layout_center_viewpager"/>
+
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

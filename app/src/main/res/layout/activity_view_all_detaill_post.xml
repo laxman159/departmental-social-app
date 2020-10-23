@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abllll">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/abll"
+        android:background="@null">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/alldetain_tool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/MenuStyle"
+            app:titleTextColor="@color/white">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/user"
+                android:id="@+id/civ_allpost_activity"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/llggeader">
+
+
+                <TextView
+                    android:id="@+id/username_details_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:text="laxman"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"/>
+
+                <ImageButton
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_back_arrow"
+                    android:visibility="invisible"/>
+
+
+            </LinearLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+        <View
+            android:id="@+id/vv4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/alldetail_discription"
+            android:background="@color/grey" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="50dp"
+    android:layout_below="@id/abllll">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/abllll">
+
+
+
+
+
+
+    <com.jsibbold.zoomage.ZoomageView
+        android:id="@+id/alldetail_photo"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_marginTop="4dp"
+        android:elevation="3dp"
+        android:scaleType="fitCenter"
+
+        />
+<LinearLayout
+    android:id="@+id/llll3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/alldetail_photo"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:id="@+id/alldetail_discription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Description:"
+        android:textColor="#7F8786"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end">
+
+
+    <TextView
+        android:id="@+id/comments_update_discription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#137FB9"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Update description"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/alldetail_discription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llll3"
+        android:background="@drawable/white_border1"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+    <View
+        android:id="@+id/vvv4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/alldetail_discription"
+        android:background="#897373"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/alldetail_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/vvv4"
+        />
+
+
+
+</RelativeLayout>
+
+</ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:elevation="5dp">
+
+
+
+
+        <include layout="@layout/comments_et"
+            android:id="@+id/comment_re"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

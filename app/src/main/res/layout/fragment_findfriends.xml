@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blackrecycler"
+    tools:context=".Search.FindFriendsFragment">
+
+
+
+
+
+    <EditText
+        android:id="@+id/findfriends_searchbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_search"
+        android:background="@drawable/white_border1"
+        android:drawablePadding="10dp"
+        android:layout_margin="20dp"
+        android:imeOptions="actionSearch"
+
+        android:hint="Search users"
+        android:textColorHint="@color/white"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:padding="10dp" />
+
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friends"
+        android:textSize="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_below="@id/findfriends_searchbox"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/friendlist_view"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv1"
+        android:layout_margin="15dp" />
+
+</RelativeLayout>

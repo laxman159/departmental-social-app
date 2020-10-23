@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44464C"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:popupTheme="@style/MenuStyle"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/blackrecycler">
+
+        <ImageButton
+            android:id="@+id/setting_back_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_back_arrow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/setting_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_toolbar"
+        android:orientation="horizontal"
+        android:backgroundTint="@color/blackrecycler"
+        android:background="@drawable/white_grey_border_bottom"
+        android:layout_margin="10dp"
+        android:padding="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setting_image_view"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/user"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="15sp">
+
+
+
+        <TextView
+            android:id="@+id/setting_name_ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Laxman"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/setting_status_ll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="status"
+                android:textSize="18sp"
+
+
+                android:layout_marginStart="7dp"
+                android:textColor="#C0C2C7"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/line_stroke"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/setting_ll1"
+        android:background="@color/grey"/>
+
+    <LinearLayout
+        android:id="@+id/settingll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_stroke"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/blackrecycler"
+        android:background="@drawable/white_border1"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_key"
+            android:layout_marginTop="5dp"
+            android:rotation="90"/>
+        <LinearLayout
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Accounts"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy, change details"
+                android:textColor="#C0C2C7"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/ln_invite_friend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/blackrecycler"
+        android:background="@drawable/white_border1"
+        android:layout_below="@id/settingll2"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/ic_people_black_24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/white"
+            android:text="Invite a friend"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

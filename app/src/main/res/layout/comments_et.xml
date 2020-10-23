@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+
+    android:background="@color/blackrecycler">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/comment_civ"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="5dp"
+        android:src="@drawable/user"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Add a comment..."
+        android:id="@+id/comment_add"
+        android:layout_margin="5dp"
+        android:textSize="13dp"
+        android:inputType="textMultiLine"
+        android:backgroundTint="@color/grey"
+        android:theme="@style/MenuStyle"
+        android:textColor="@color/white"
+        android:textColorHint="#8F939D"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/comment_post"
+        android:text="Post"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:padding="5dp"
+        android:textColor="#1D5FA1"/>
+
+        <ImageButton
+            android:id="@+id/addcomment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="-80dp"
+            android:clickable="true"
+            android:background="@color/blackrecycler"
+            android:src="@drawable/ic_send"
+
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+
+</LinearLayout>

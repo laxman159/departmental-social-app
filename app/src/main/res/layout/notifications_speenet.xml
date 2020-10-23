@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/sytleforfriendsdisplaylayout">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/all_user_display_notificatonslayout_profileimage"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/profile" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp">
+
+
+        <TextView
+            android:id="@+id/all_user_display_notificatonslayout_profilename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/all_user_display_notificatonslayout_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="90dp">
+
+            <Button
+                android:id="@+id/nav_Request_notificatonsaccept_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Accept"
+                >
+
+            </Button>
+
+            <Button
+                android:id="@+id/nav_Request_notificatonsdecilne_button"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button"
+                android:text="Decline">
+
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

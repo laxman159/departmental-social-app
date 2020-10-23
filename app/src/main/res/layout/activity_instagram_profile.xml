@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/new1">
+
+    <include
+        android:id="@+id/custom_instagramprofile_toolbar"
+        layout="@layout/custon_bar_instagram_profile"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/rl5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_instagramprofile_toolbar">
+
+        <include layout="@layout/layout_center_profile"></include>
+    </RelativeLayout>
+
+</RelativeLayout>

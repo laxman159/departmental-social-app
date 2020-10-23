@@ -1,0 +1,20 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/viewpager_container">
+
+
+        </androidx.viewpager.widget.ViewPager>
+
+    </RelativeLayout>
+
+
+
+</merge>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".NoticeBoardFragment"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:id="@+id/toDoEmptyView5"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:src="@drawable/applogo"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"/>
+
+
+        <TextView
+            android:text="Important notices will be shown here."
+            android:textColor="#B0B2B5"
+            android:textSize="16sp"
+            android:paddingTop="4dp"
+            android:paddingBottom="8dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="St Anthony's College Notice Board \n Computer Science Department"
+        android:textColor="#9599A1"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="10dp" />
+    <com.e.thedept20.RecyclerViewEmptySupport
+        android:id="@+id/news_rv"
+       android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25dp"/>
+
+
+
+</FrameLayout>

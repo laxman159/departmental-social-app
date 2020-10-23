@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222A35</color>
+    <color name="colorPrimaryDark">#222A35</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="trans">#00000000</color>
+    <color name="grey">#4D5057</color>
+    <color name="green">#4FC18A</color>
+    <color name="black_shade">#333333</color>
+    <color name="sendercolor">#00574B</color>
+    <color name="receivercolor">#3B4041</color>
+    <color name="blackToWhite">#000</color>
+    <color name="newBlue">#138FF7</color>
+    <color name="new1">#15191E</color>
+    <color name="blackrecycler">#0F0F10</color>
+
+    <color name="bg_layout">#ebebeb</color>
+    <color name="layout_title">#212121</color>
+    <color name="layout_item_desc">#2a2a2a</color>
+    <color name="fab_color">#4285f4</color>
+    <color name="btn_done_color">#1a73e8</color>
+    <color name="line">#40000000</color>
+    <color name="edit_title">#757575</color>
+    <color name="delete_tine">#40212121</color>
+    <color name="bg_lock">#99000000</color>
+
+</resources>

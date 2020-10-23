@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".StudentsProtalActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/studentportal_chat_user_app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/_studentprotal_bar"
+            layout="@layout/app_bar_layout" />
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/studentportal_chat_user_tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/studentportal_user_chat_tabs_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/studentportal_chat_user_app_bar_layout" />
+
+</RelativeLayout>

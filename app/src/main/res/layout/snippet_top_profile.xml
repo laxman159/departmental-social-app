@@ -1,0 +1,111 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_margin="4dp">
+
+
+        <TextView
+            android:id="@+id/tvPosts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textPosts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-8dp"
+            android:text="Posts"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPosts" />
+
+        <TextView
+            android:id="@+id/tvFollowers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toRightOf="@+id/tvPosts"
+            app:layout_constraintRight_toLeftOf="@+id/tvFollowing"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textFollowers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="-8dp"
+            android:layout_marginRight="8dp"
+            android:text="Friends"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintHorizontal_bias="0.526"
+            app:layout_constraintLeft_toRightOf="@+id/textPosts"
+            app:layout_constraintRight_toLeftOf="@+id/textFollolwing"
+            app:layout_constraintTop_toBottomOf="@+id/tvFollowers" />
+
+        <TextView
+            android:id="@+id/tvFollowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="8dp"
+            android:text=""
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textFollolwing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="-22dp"
+            android:text="Request"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFollowing" />
+
+        <TextView
+            android:id="@+id/textEditProfile"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
+            android:text="Edit your profile"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textFollowers"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</merge>

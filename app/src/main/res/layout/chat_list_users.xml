@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl8"
+    android:background="@drawable/white_border1"
+    android:backgroundTint="#44464C"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="3dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/line"
+       >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chatlist_display_layout_profileimage"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/profile" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/chatlist_display_layout_profilename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/chatlist_display_layout_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <TextView
+            android:id="@+id/chatlist_display_layout_offlinestatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/chatlist_display_layout_lastmessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:textStyle="italic"
+                android:textColor="#DCD6D6"
+                android:textSize="10sp" />
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end">
+
+
+            <TextView
+                android:id="@+id/chatlist_display_layout_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="time"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+            </LinearLayout>
+</LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
