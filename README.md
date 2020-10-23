@@ -7,3 +7,5 @@ The user can add friends to the friends list and start communicating with each o
 User can look up information about other users like there email address, blood group when in need. 
 Students can check notice board and check their attendance, routine and can add notes. 
 
+
+FIREBASE-JAVA-SOCIALNETWORK
