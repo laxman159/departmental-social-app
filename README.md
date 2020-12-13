@@ -7,5 +7,5 @@ The user can add friends to the friends list and start communicating with each o
 User can look up information about other users like there email address, blood group when in need. 
 Students can check notice board and check their attendance, routine and can add notes. 
 
-[]( https://user-images.githubusercontent.com/56950807/96967144-a7081080-152c-11eb-8dff-668b272de523.png)
+( https://user-images.githubusercontent.com/56950807/96967144-a7081080-152c-11eb-8dff-668b272de523.png)
 FIREBASE-JAVA-SOCIALNETWORK
