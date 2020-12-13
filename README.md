@@ -6,6 +6,6 @@ Here the user can create an account and share photos with the respected departme
 The user can add friends to the friends list and start communicating with each other and send important notes etc.
 User can look up information about other users like there email address, blood group when in need. 
 Students can check notice board and check their attendance, routine and can add notes. 
-[calciHtmlLogo](https://user-images.githubusercontent.com/56950807/96967144-a7081080-152c-11eb-8dff-668b272de523.png)
+![calciHtmlLogo](https://user-images.githubusercontent.com/56950807/96967144-a7081080-152c-11eb-8dff-668b272de523.png)
 
 FIREBASE-JAVA-SOCIALNETWORK
