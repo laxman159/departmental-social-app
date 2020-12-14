@@ -30,7 +30,6 @@ FIREBASE-JAVA-SOCIALNETWORK
 
 7. NOTICE BOARD
 <img src="https://user-images.githubusercontent.com/56950807/102047581-81e49f80-3e03-11eb-8020-0b5a5b1ec4cf.jpg" width="300">
-
 8. NOTES
 <img src="ttps://user-images.githubusercontent.com/56950807/102047584-827d3600-3e03-11eb-9c7d-894b2c1ba97f.jpg" width="300">
 
