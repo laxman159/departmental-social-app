@@ -6,6 +6,17 @@ Here the user can create an account and share photos with the respected departme
 The user can add friends to the friends list and start communicating with each other and send important notes etc.
 User can look up information about other users like there email address, blood group when in need. 
 Students can check notice board and check their attendance, routine and can add notes. 
-![calciHtmlLogo](https://user-images.githubusercontent.com/56950807/96967144-a7081080-152c-11eb-8dff-668b272de523.png)
+
 
 FIREBASE-JAVA-SOCIALNETWORK
+
+![login page](https://user-images.githubusercontent.com/56950807/102047551-77c2a100-3e03-11eb-8e40-c7eb5d02fa72.jpg)
+![google login](https://user-images.githubusercontent.com/56950807/102047560-7abd9180-3e03-11eb-8a3b-0e79b0141182.jpg)
+![home screen](https://user-images.githubusercontent.com/56950807/102047567-7db88200-3e03-11eb-85d3-f52a32d6437b.jpg)
+![attendence](https://user-images.githubusercontent.com/56950807/102047569-7ee9af00-3e03-11eb-83f9-eaa6a0e3852d.jpg)
+![chat](https://user-images.githubusercontent.com/56950807/102047573-801adc00-3e03-11eb-8db8-928d97c6c3b5.jpg)
+![upload photo](https://user-images.githubusercontent.com/56950807/102047577-80b37280-3e03-11eb-8340-39e44357fe76.jpg)
+![education section](https://user-images.githubusercontent.com/56950807/102047581-81e49f80-3e03-11eb-8020-0b5a5b1ec4cf.jpg)
+![my proflie](https://user-images.githubusercontent.com/56950807/102047584-827d3600-3e03-11eb-9c7d-894b2c1ba97f.jpg)
+![settings](https://user-images.githubusercontent.com/56950807/102047589-8315cc80-3e03-11eb-9a61-6b27ccd99ee6.jpg)
+![notes](https://user-images.githubusercontent.com/56950807/102047592-8446f980-3e03-11eb-9d59-2a0fec2a8bdb.jpg)
