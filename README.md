@@ -28,9 +28,13 @@ FIREBASE-JAVA-SOCIALNETWORK
 6. UPLOAD IMAGE AND NOTICE 
 <img src="https://user-images.githubusercontent.com/56950807/102047577-80b37280-3e03-11eb-8340-39e44357fe76.jpg" width="300">
 
-
+7. NOTICE BOARD
 <img src="https://user-images.githubusercontent.com/56950807/102047581-81e49f80-3e03-11eb-8020-0b5a5b1ec4cf.jpg" width="300">
+
+8. NOTES
 <img src="ttps://user-images.githubusercontent.com/56950807/102047584-827d3600-3e03-11eb-9c7d-894b2c1ba97f.jpg" width="300">
+
+9.SETTING
 <img src="https://user-images.githubusercontent.com/56950807/102047592-8446f980-3e03-11eb-9d59-2a0fec2a8bdb.jpg" width="300">
 <img src="https://user-images.githubusercontent.com/56950807/102047589-8315cc80-3e03-11eb-9a61-6b27ccd99ee6.jpg" width="300">
 
