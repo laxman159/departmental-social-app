@@ -8,16 +8,12 @@ User can look up information about other users like there email address, blood g
 Students can check notice board and check their attendance, routine and can add notes. 
 
 
-<p float="left">
-  <img src="/https://user-images.githubusercontent.com/56950807/102047551-77c2a100-3e03-11eb-8e40-c7eb5d02fa72.jpg" width="100" />
-  
-  
-</p>
+
 
 
 FIREBASE-JAVA-SOCIALNETWORK
 
-1. LOGIN SCREEN <img src="https://user-images.githubusercontent.com/56950807/102047551-77c2a100-3e03-11eb-8e40-c7eb5d02fa72.jpg" width="300"> | 2. GOOGLE LOGIN <img src="https://user-images.githubusercontent.com/56950807/102047560-7abd9180-3e03-11eb-8a3b-0e79b0141182.jpg" width="300">
+1. LOGIN SCREEN <img src="https://user-images.githubusercontent.com/56950807/102047551-77c2a100-3e03-11eb-8e40-c7eb5d02fa72.jpg" width="100"> | 2. GOOGLE LOGIN <img src="https://user-images.githubusercontent.com/56950807/102047560-7abd9180-3e03-11eb-8a3b-0e79b0141182.jpg" width="100">
 
 3. HOME SCREEN <img src="https://user-images.githubusercontent.com/56950807/102047567-7db88200-3e03-11eb-85d3-f52a32d6437b.jpg" width="300"> | 4. ATTENDENCE TRACKER<img src="https://user-images.githubusercontent.com/56950807/102047569-7ee9af00-3e03-11eb-83f9-eaa6a0e3852d.jpg" width="300">
 
