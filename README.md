@@ -22,7 +22,7 @@
 - User can look up information about other users like there email address, blood group when in need.
 - Students can check notice board and check their attendance, routine and can add notes.
 
-##Give a ⭐ if you like this project 
+## Give a ⭐ if you like this project 
 
 ## Instructions to run
 ```
