@@ -22,11 +22,11 @@
 - User can look up information about other users like there email address, blood group when in need.
 - Students can check notice board and check their attendance, routine and can add notes.
 
-
+##Give a ⭐ if you like this project 
 
 ## Instructions to run
 ```
-$ git clone https://github.com/CodeChefVIT/<Project>
+$ git clone https://github.com/laxman159T/departmental-social-app.git
 $ cd <Project>
 $ Open project in Android Studio
 $ Run Build 
@@ -40,5 +40,8 @@ $ Run Build
 <p align="center">
 	With :heart: by <a href="https://github.com/laxman159" target="_blank">Laxman</a>
 </p>
+	
+	
+
 
 
